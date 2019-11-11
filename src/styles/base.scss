@@ -1,0 +1,236 @@
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  font-size: 20vw;
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 64px;
+  }
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 128px;
+  }
+}
+body {
+  margin: 0 auto;
+  color: #101010;
+  background-color: #eee;
+  max-width: 640px;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+a {
+  background: transparent;
+  color: #666;
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+img {
+  border: 0;
+  vertical-align: middle;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+button,
+input[type="number"],
+input[type="password"],
+input[type="text"],
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: none;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+input[type="number"],
+input[type="password"],
+input[type="text"],
+option,
+select,
+textarea {
+  line-height: normal;
+  background: none;
+  outline: none;
+  border: 0;
+}
+input[type="number"],
+input[type="password"],
+input[type="text"],
+textarea {
+  appearance: none;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+blockquote,
+figure,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+dd,
+dl,
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+ol,
+ul {
+  list-style: none outside none;
+}
+h1,
+h2,
+h3 {
+  line-height: 2;
+  font-weight: 400;
+}
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-size: 20.8px;
+}
+h3 {
+  font-size: 18.72px;
+}
+h4 {
+  font-size: 16px;
+}
+h5,
+h6 {
+  font-size: 13.6px;
+  text-transform: uppercase;
+}
+::-webkit-input-placeholder {
+  color: #888;
+  font-size: 14px;
+}
+:-moz-placeholder {
+  color: #888;
+  font-size: 14px;
+}
+:-ms-input-placeholder {
+  color: #888;
+  font-size: 14px;
+}
+​ img {
+  content: normal !important;
+}
+.flex {
+  display: flex;
+}
+.j-b {
+  justify-content: space-between;
+}
+
+.t-c {
+  text-align: center;
+}
+
+.bg-fff {
+  background: #fff;
+}
+
+.icon-jiantouyou {
+  font-size: 13px;
+}
+
+.flex-b-c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.g-h-35 {
+  height: 35px;
+  line-height: 35px;
+}
+.g-h-45 {
+  height: 45px;
+}
+.g-h-46 {
+  height: 46px;
+}
+.g-padding-lr {
+  padding: 0 0.26667rem;
+}
+.g-padding-tb {
+  padding: 20px 0;
+}
+
+.g-t-c {
+  text-align: center;
+}
+.dis {
+  background: #ccc;
+  color: #ccc;
+  border: 1px solid #fff;
+  cursor: not-allowed;
+}
+#app {
+  font-size: 16px;
+  height: 100%;
+}

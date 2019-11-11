@@ -1,0 +1,22 @@
+.b-b {
+  border-bottom: 1px solid #efefef;
+}
+.b-t {
+  border-top: 1px solid #efefef;
+}
+.b-l {
+  border-left: 1px solid transparent;
+}
+.b-l,
+.b-r {
+  border-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyIj48cmVjdCBmaWxsPSIjZWZlZmVmIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSI1MCUiLz48L3N2Zz4=")
+    2 2 stretch;
+}
+.b-r {
+  border-right: 1px solid transparent;
+}
+
+.b-t-4,
+.b-t-g {
+  border-top: 4px solid #68c269;
+}

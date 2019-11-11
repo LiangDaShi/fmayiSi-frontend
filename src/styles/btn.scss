@@ -1,0 +1,30 @@
+.__btn-normal {
+    color: #333;
+    background: #fff;
+    border: 1px solid #ddd
+}
+
+.__btn-primary {
+    background: #68c269;
+    color: #fff;
+    border: 1px solid #68c269
+}
+
+.__btn-dis-primary {
+    background: #ccc;
+    color: #fff;
+    border: 1px solid #ccc
+}
+
+.__btn-text {
+    color: #68c269
+}
+
+.__btn-dis-text,.__btn-text {
+    background: #fff;
+    border: 1px solid #68c269
+}
+
+.__btn-dis-text {
+    color: #333
+}
