@@ -1,12 +1,14 @@
 # 用户
-* [用户登录](#用户登录)
+* [登录](#登录)
+* [修改信息](#修改信息)
 
-## 用户登录
-/api/user/login
-
-Content-Type : application/json; charset=utf-8;
+## 登录
+POST　/api/user/login
 
 ### Request
+
+#### Body
+Row　json
 
 ```json
 {
@@ -16,7 +18,9 @@ Content-Type : application/json; charset=utf-8;
 ```
 
 ### Response
-正确返回
+
+#### Success
+
 ```json
 {
     "code": 1,
@@ -39,12 +43,55 @@ Content-Type : application/json; charset=utf-8;
     }
 }
 ```
-错误返回
+
+#### Error
+
 ```json
 {
     "code": 0,
     "msg": "密码不正确",
     "time": "1573460173",
+    "data": null
+}
+```
+
+## 修改信息
+POST　/api/user/profile
+
+### Request
+
+#### Headers
+token : cd5320b4-f7d8-4698-8c7f-973a98509fc8
+
+#### Body
+Row　json
+
+```json
+{
+    "nickname": "demo",
+    "bio":"do my best"
+}
+```
+### Response
+
+#### Success
+
+```json
+{
+    "code": 1,
+    "msg": "",
+    "time": "1573524890",
+    "data": null
+}
+```
+
+#### Error
+
+```json
+{
+    "code": 401,
+    "msg": "请登录后操作",
+    "time": "1573525334",
     "data": null
 }
 ```

@@ -2,16 +2,17 @@
 * [验证](#验证)
 
 ## 验证
-/api/token/check
-
-Content-Type : application/json; charset=utf-8;
+GET　/api/token/check
 
 ### Request
+
 #### Headers
 token : cd5320b4-f7d8-4698-8c7f-973a98509fc8
 
 ### Response
-正确返回
+
+#### Success
+
 ```json
 {
     "code": 1,
@@ -23,7 +24,9 @@ token : cd5320b4-f7d8-4698-8c7f-973a98509fc8
     }
 }
 ```
-错误返回
+
+#### Error
+
 ```json
 {
     "code": 401,
