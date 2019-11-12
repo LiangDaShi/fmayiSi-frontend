@@ -1,19 +1,7 @@
 # Token
-* [协议须知](#协议须知)
-* [数据约束](#数据约束)
-* [Token验证](#Token验证)
-* [提交数据](#提交数据)
+* [验证](#验证)
 
-## 协议须知
-
-|规则|描述|
-|:-|:-|
-|传输方式|HTTP|
-|请求方法|GET或POST|
-|字符编码|统一采用UTF-8编码|
-|响应格式|统一采用JSON格式|
-
-## Token验证
+## 验证
 /api/token/check
 
 Content-Type : application/json; charset=utf-8;
