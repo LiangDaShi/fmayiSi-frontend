@@ -28,6 +28,7 @@ Content-Type : application/json; charset=utf-8;
 ```
 
 ### Response
+正确返回
 ```json
 {
     "code": 1,
@@ -48,5 +49,14 @@ Content-Type : application/json; charset=utf-8;
             "expires_in": 2592000
         }
     }
+}
+```
+错误返回
+```json
+{
+    "code": 0,
+    "msg": "密码不正确",
+    "time": "1573460173",
+    "data": null
 }
 ```
