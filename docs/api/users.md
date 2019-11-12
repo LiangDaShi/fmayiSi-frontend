@@ -1,6 +1,7 @@
 # 用户
 * [登录](#登录)
 * [修改信息](#修改信息)
+* [登出](#登出)
 
 ## 登录
 POST　/api/user/login
@@ -92,6 +93,38 @@ Row　json
     "code": 401,
     "msg": "请登录后操作",
     "time": "1573525334",
+    "data": null
+}
+```
+
+## 登出
+GET　/api/user/logout
+
+### Request
+
+#### Headers
+token : cd5320b4-f7d8-4698-8c7f-973a98509fc8
+
+### Response
+
+#### Success
+
+```json
+{
+    "code": 1,
+    "msg": "注销成功",
+    "time": "1573526194",
+    "data": null
+}
+```
+
+#### Error
+
+```json
+{
+    "code": 401,
+    "msg": "请登录后操作",
+    "time": "1573525998",
     "data": null
 }
 ```
